@@ -195,7 +195,9 @@ const tick = () =>
     // Update Shadow
     sphereShadow.position.x = sphere.position.x
     sphereShadow.position.z = sphere.position.z
-    sphereShadow.material.opacity = (1 - Math.abs(sphere.position.y)) * 0.5
+    sphereShadow.material.opacity = (1 - Math.abs(sphere.position.y)) * 0.5 
+    sphereShadow.position.x = sphere.position.x
+    sphereShadow.position.x = sphere.position.x
 
     // Update controls
     controls.update()
